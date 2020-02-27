@@ -1,0 +1,15 @@
+package com.app.releasenotes;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@EnableAutoConfiguration
+public class RESTAPISampleApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RESTAPISampleApplication.class, args);
+	}
+
+}
